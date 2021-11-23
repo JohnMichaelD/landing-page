@@ -115,7 +115,7 @@ ul {
 
 .quoteBanner {
     background-color: #e5e7eb;
-    height: 350px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,4 +132,50 @@ ul {
     justify-content: flex-end;
     width: 65%;
 
+}
+
+.actionBanner {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.actionContainer {
+    background-color: rgb(0, 132, 255);
+    width: 65%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.actionText {
+    margin: 0px;
+    padding: 0px;
+}
+
+.actionSubText {
+    opacity: 0.8;
+}
+
+.actionButton {
+    background-color: rgb(0, 132, 255);
+    border-color: white;
+    border-radius: 10px;
+    padding: 8px 30px;
+    font-size: 18px;
+    color: white;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
