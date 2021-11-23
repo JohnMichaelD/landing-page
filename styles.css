@@ -112,3 +112,24 @@ ul {
 .card {
     gap: 20px;
 }
+
+.quoteBanner {
+    background-color: #e5e7eb;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteContainer {
+    width: 65%;
+    font-family: 'Marck Script', cursive;
+}
+
+.authorContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 65%;
+
+}
