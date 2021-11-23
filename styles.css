@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
@@ -10,11 +11,54 @@ header {
     color: white;
 }
 
-.title {
-
-}
-
 .list {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.bannerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    color: white;
+    padding: 75px 0px 125px 0px;
+}
+
+.bannerInfo {
+    width: 400px;
+    min-width: 300px;
+}
+
+.bannerTitle {
+    font-size: 55px;
+    margin: 0px;
+}
+
+.bannerText {
+    text-align:left;
+    opacity: 0.6;
+    margin: 15px 0px;
+}
+
+.bannerButton {
+    background-color: rgb(0, 132, 255);
+    border-radius: 7px;
+    font-size: 18px;
+    padding: 10px 35px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    margin-top: 20px;
+}
+
+.bannerImage {
+    max-width: 500px;
+    height: auto;
 }
