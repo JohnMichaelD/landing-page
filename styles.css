@@ -62,3 +62,53 @@ ul {
     max-width: 500px;
     height: auto;
 }
+
+.cardBanner {
+    margin-bottom: 100px;
+}
+
+.cardTitleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0px;
+}
+
+.cardHeader {
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+    
+}
+
+.cardTitle {
+    font-weight: bold;
+}
+
+.cardText,
+.cardTitle {
+    padding: 2px;
+    margin: 0px;
+}
+
+.cardImage {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card {
+    gap: 20px;
+}
